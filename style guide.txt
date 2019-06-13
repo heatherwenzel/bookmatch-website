@@ -1,0 +1,23 @@
+Style Guide:
+
+Fonts:
+- Josephin Sans
+- Lato
+
+Font sizes:
+Mobile:
+- p: 1em
+- nav: .9em
+- button: 1.5em
+- footer: .7em
+
+Desktop:
+- p: 1em
+- nav: 1.1em
+- button: 1.5em
+- footer: .7em
+
+Font colors:
+- #151515
+- #2C7AF7
+- #707070

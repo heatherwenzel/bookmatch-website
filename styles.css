@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: .9em;
+}
+
+a {
+    color: #151515;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #151515;
+}
+
+.menu {
+    padding: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.navbutton {
+    padding-left: .7em;
+}
+
+a.logo {
+    flex: 1;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+    color: #707070;
+}
+
+span {
+    color: #2c7af7;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+    font-family: 'Lato', sans-serif;
+    height: 72vh;
+}
+
+.givebook {
+    margin-bottom: 4%;
+}
+
+.givebook, .findbook {
+    height: 40%;
+    color: #2C7AF7;
+    background-color: white;
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    border-radius: 20px;
+}
+
+.givebook:hover, .findbook:hover {
+    color: white;
+    background-color: #2C7AF7;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: .7em;
+    margin-top: 4%;
+}
+
+.profile {
+    height: 30px;
+}
+
+.bookicon {
+    margin-bottom: 3%;
+}
+
+.peoplesaying {
+    display: none;
+}
+
+@media only screen and (min-width: 600px) {
+    .navbutton {
+        font-size: 1.1em;
+    }
+
+    .profile {
+        height: 35px;
+    }
+
+    .buttons {
+        flex-direction: row;
+        height: 30vh;
+        padding: 2%;
+    }
+
+    .peoplesaying {
+        display: block;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 1em;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+    }
+
+    .peoplequoted {
+        color: #707070;
+    }
+
+    .givebook, .findbook {
+        height: 100%;
+        width: 30%;
+        margin: 0 10%;
+        font-family: 'Lato', sans-serif;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .headshot {
+        border-radius: 50%;
+        width: 10%;
+    }
+}
